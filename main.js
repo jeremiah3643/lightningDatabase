@@ -1,13 +1,4 @@
-const snackMaker = (title, description, filling, ingredient, topping) => {
-    let newSnack = {
-        title: title,
-        description: description,
-        filling: filling,
-        ingredient: ingredient,
-        topping: topping
-    }
-    return newSnack
-}
+
 function populateDB() {
     const nutterBar = snackMaker("Nutter Bar", "Cookie stick filled with peanut butter", "Peanut Butter", "Cookie wafer and peanut butter", "Chocolate")
     const swissRolls = snackMaker("Swiss Rolls", "Chocolate cake rolled around a layer of creme filling and drenched with fudge coating.", "Creme", "Chocolate Cake", "Fudge")
